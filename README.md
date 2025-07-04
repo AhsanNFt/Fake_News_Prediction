@@ -100,7 +100,7 @@ Contributions are welcome! If you have any suggestions or improvements, please o
 ## 📬 Contact
 
 For questions or collaboration:
-- GitHub: [Your GitHub Username]
-- Email: [Your Email Address]
+- GitHub: AhsanNFt
+- Email: syedahsan0991@gmail.com.
 
 
