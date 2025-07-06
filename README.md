@@ -66,7 +66,29 @@ My approach to fake news prediction involved the following steps:
 - S C I K I T - L E A R N
 
 ## 📉 Visualizations
+### Logistic Regression - Confusion Matrix
+![image](https://github.com/user-attachments/assets/0ffb6ba4-b83e-46c1-97fb-10c010f45965)
 
+**Insights:**
+- Accuracy: 98.88%
+- Fake News: 4585 correct, 65 missed
+- Real News: 4294 correct, 36 wrongly marked as fake
+- Total mistakes: Only 101 out of 8980
+- Precision: 99% – Predictions are mostly correct
+- Recall: 99% – Very few fake/real articles missed
+- F1-Score: 99% – Excellent balance and consistency
+
+#### Random Forest - Confusion Matrix
+![image](https://github.com/user-attachments/assets/39f36adb-7a6a-4a8f-8057-4ba7ecba8b59)
+
+**Insights:**
+- Accuracy: 99.65%
+- Fake News: 4635 correct, 15 missed
+- Real News: 4314 correct, 16 wrongly marked as fake
+- Total mistakes: Only 31 out of 8980
+- Precision: 100% – Predictions are almost always correct
+- Recall: 100% – Very few fake/real articles missed
+- F1-Score: 100% – Perfect balance and consistency
 
 ## 📊 Results and Insights
 
@@ -82,11 +104,11 @@ My approach to fake news prediction involved the following steps:
 ## 🧪 Usage
 
 ```bash
-# 1. Clone the repository (assuming this notebook is part of a larger repository)
-git clone <repository_url>
+# 1. Clone the repository 
+git clone https://github.com/AhsanNFt/Fake_News_Prediction.git
 
 # 2. Navigate to the project directory
-cd <project_directory>
+cd Fake_News_Prediction
 
 # 3. Open the notebook
 jupyter notebook Fake_News_Prediction.ipynb
@@ -100,7 +122,7 @@ Contributions are welcome! If you have any suggestions or improvements, please o
 ## 📬 Contact
 
 For questions or collaboration:
-- GitHub: AhsanNFt
+- GitHub: `AhsanNFt`
 - Email: syedahsan0991@gmail.com.
 
 
